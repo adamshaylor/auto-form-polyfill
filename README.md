@@ -30,7 +30,7 @@ autoFormPolyfill.configure({
 	// The more fields there are to poll, the bigger this number should be
 	pollingIntervalMs: 100,
 
-	// The change event refers specifically to user - in the case of autofill/autocomplete, it's open to interpretation
+	// The change event refers specifically to user input - in the case of autofill/autocomplete, it's open to interpretation
 	eventsToTrigger: ['input', 'change']
 
 });
