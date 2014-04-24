@@ -1,0 +1,30 @@
+{
+  "name": "auto-form-polyfill",
+  "version": "0.0.0",
+  "description": "Triggers change events when browsers autocomplete or autofill form inputs",
+  "main": "auto-form-polyfill.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamshaylor/auto-form-polyfill.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "auto-complete",
+    "autofill",
+    "auto-fill",
+    "change",
+    "event",
+    "polyfill"
+  ],
+  "author": "Adam Shaylor <business@adamshaylor.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamshaylor/auto-form-polyfill/issues"
+  },
+  "homepage": "https://github.com/adamshaylor/auto-form-polyfill"
+}

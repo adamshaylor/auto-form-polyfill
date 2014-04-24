@@ -1,0 +1,33 @@
+{
+  "name": "auto-form-polyfill",
+  "version": "0.0.0",
+  "homepage": "https://github.com/adamshaylor/auto-form-polyfill",
+  "authors": [
+    "Adam Shaylor <business@adamshaylor.com>"
+  ],
+  "description": "Triggers change events when browsers autocomplete or autofill form inputs",
+  "main": "./auto-form-polyfill.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "autocomplete",
+    "auto-complete",
+    "autofill",
+    "auto-fill",
+    "change",
+    "event",
+    "polyfill"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11"
+  }
+}
