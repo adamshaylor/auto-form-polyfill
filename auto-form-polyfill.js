@@ -81,6 +81,7 @@
 		if (isRunning) {
 			return autoFormPolyfill;
 		}
+		isRunning = true;
 
 		$(document).ready(function () {
 
@@ -109,6 +110,7 @@
 		if (!isRunning) {
 			return autoFormPolyfill;
 		}
+		isRunning = false;
 
 		if (typeof intervalId === 'number') {
 			window.clearInterval(intervalId);
