@@ -1,6 +1,6 @@
 {
   "name": "auto-form-polyfill",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Triggers change events when browsers autocomplete or autofill form inputs",
   "main": "auto-form-polyfill.js",
   "dependencies": {},
