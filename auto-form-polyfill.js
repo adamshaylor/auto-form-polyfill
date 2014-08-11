@@ -23,18 +23,22 @@
 
 
 	eventHandler = function () {
+
 		if (isElementChanged($(this))) {
 			triggerEvents($(this));
 		}
+
 	};
 
 
 	pollFunction = function () {
+
 		$(elementsToLookFor).each(function () {
 			if (isElementChanged($(this))) {
 				triggerEvents($(this));
 			}
 		});
+		
 	};
 
 
@@ -81,6 +85,7 @@
 		if (isRunning) {
 			return autoFormPolyfill;
 		}
+
 		isRunning = true;
 
 		$(document).ready(function () {
@@ -110,6 +115,7 @@
 		if (!isRunning) {
 			return autoFormPolyfill;
 		}
+
 		isRunning = false;
 
 		if (typeof intervalId === 'number') {
